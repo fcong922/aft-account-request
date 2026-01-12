@@ -44,4 +44,8 @@ module "import-account-1" {
     SSOUserFirstName          = "Admin"
     SSOUserLastName           = "User"
   }
+  change_management_parameters = {
+    change_requested_by = "AWS Control Tower Lab"
+    change_reason       = "Learn AWS Control Tower Account Factory for Terraform (AFT)2"
+  }
 }
