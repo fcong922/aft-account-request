@@ -33,3 +33,15 @@ module "account_request_01" {
 
   account_customizations_name = "SANDBOX"
 }
+module "import-account-1" {
+  source = "./modules/aft-account-request"
+
+  control_tower_parameters = {
+    AccountEmail              = "fcong922+Lab@gmail.com"
+    AccountName               = "Lab Account"
+    ManagedOrganizationalUnit = "test" 
+    SSOUserEmail              = "fcong922+Lab@gmail.com"
+    SSOUserFirstName          = "Admin"
+    SSOUserLastName           = "User"
+  }
+}
