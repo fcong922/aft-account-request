@@ -65,4 +65,3 @@ module "import-account-1" {
 
   account_customizations_name = "SANDBOX"
 }
-}
