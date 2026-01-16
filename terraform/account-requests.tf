@@ -81,13 +81,11 @@ module "import-account-1" {
         }
       }
     )
-  custom_fields = {
     custom1 = "a"
     custom2 = "b"
   }
 
   account_customizations_name = "SANDBOX"
-}
 }
 module "account_request_02" {
   source = "./modules/aft-account-request"
