@@ -216,7 +216,7 @@ module "demo_account_request_02" {
 
   control_tower_parameters = {
     AccountEmail              = "fcong+ctdemo2@amazon.com"
-    AccountName               = "Demo Account"
+    AccountName               = "Demo Account2"
     ManagedOrganizationalUnit = "Labs" 
     SSOUserEmail              = "fcong+ctdemo2@amazon.com"
     SSOUserFirstName          = "Jane"
